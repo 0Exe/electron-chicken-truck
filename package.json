@@ -1,0 +1,26 @@
+{
+    "name": "chicken-truck",
+    "version": "0.1.0",
+    "author": "0Exe",
+    "description": "A Cookie Clicker Game, made with Electron (js), as a beginner project!",
+    "main": "main.js",
+    "scripts": {
+        "start": "npx electron-builder",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
+    },
+    "dependencies": {
+        
+    },
+    "devDependencies": {
+        "electron": "^11.2.0",
+        "electron-builder": "^22.9.1"
+    },
+
+    "build": {
+      "appId": "Chicken Wing Truck",
+      "win": {
+        "icon": "icon.png"
+      }
+    }
+}

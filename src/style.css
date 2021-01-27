@@ -1,0 +1,110 @@
+body{
+    background-color: #181e24;
+}
+
+.shop {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 20px;
+    margin-top: -20%;
+    border-radius: 7px;
+    border: #e5e5e7 1px solid;
+    color: white;
+    width: 16%;
+    background-color: #232c35;
+    position: relative;
+}
+
+.shopbtn {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: #4f6072;
+    width: 3rem;
+    margin-top: -30px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
+.shoptext {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+.sbtn {
+    padding: 20px;
+    border-radius: 7px;
+    border: #ffa047 2px solid;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    height: 20px;
+    font-weight: 600;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.stext {
+    line-height: 17.5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.counter{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+    color: #3bc769;
+    margin-left: auto;
+    margin-top: -20px;
+}
+.counter2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #3bc769;
+}
+
+.nav {
+    height: 100px;
+    display: flex;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.clicker {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 50%;
+    border: #ff4d4d 5px solid;
+    transition: ease-in-out 0.1s;
+}
+
+.clickerin {
+    width: 275px;
+    height: 275px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+
+}
+
+.item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
